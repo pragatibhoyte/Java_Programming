@@ -1,0 +1,18 @@
+4. Traffic Police Fine Calculator
+
+A traffic police app records whether a rider violated rules. Each violation has a fixed fine.
+
+If multiple violations happen, fines should be added.
+
+Fines:
+No helmet → ₹500
+No license → ₹1000
+Overspeeding → ₹1500
+Input:
+Helmet worn (Yes/No)
+License available (Yes/No)
+Overspeeding (Yes/No)
+Validations:
+Inputs must be Yes/No only
+Expected Output:
+Total Fine Amount: ₹<amount>
