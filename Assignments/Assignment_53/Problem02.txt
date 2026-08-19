@@ -1,0 +1,25 @@
+2. Bank Loan Eligibility Checker
+
+A bank wants to quickly decide whether a customer is eligible for a personal loan.
+
+The system checks the applicant's details and either approves the loan or rejects it with the exact reason.
+
+Eligibility Conditions:
+Age 21 to 60 inclusive
+Monthly income ≥ ₹25,000
+Credit score ≥ 700
+Must NOT have an existing unpaid loan
+Input:
+Age
+Monthly income
+Credit score
+Existing unpaid loan (Yes/No)
+Validations:
+Age, income, and credit score must be non-negative.
+Yes/No must be valid.
+Expected Output:
+Loan Approved
+
+OR
+
+Loan Rejected: <Specific Reason>
