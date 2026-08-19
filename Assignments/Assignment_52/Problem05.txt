@@ -1,0 +1,19 @@
+5. An e-commerce platform wants to compute final payable amount at checkout.
+
+Discounts are based on purchase amount, and premium members receive an extra discount after the main discount.
+
+Discount Rules:
+Amount > 5000 → 20% discount
+Amount > 2000 → 10% discount
+Otherwise → no discount
+Premium members → extra 5% discount on the discounted amount
+Input:
+Purchase amount (integer)
+Membership type: Premium/Regular
+Validations:
+Amount must be > 0
+Membership must be valid
+Expected Output:
+Original Amount: ₹<amount>
+Total Discount: ₹<discount>
+Final Payable Amount: ₹<finalAmount>

@@ -1,0 +1,27 @@
+3. A university wants to generate student results automatically.
+
+Each student has marks in five subjects, each out of 100.
+
+The result should clearly show whether the student failed in any subject and, if passed, the final classification based on average marks.
+
+Rules:
+If marks in any subject < 35 → student is Fail
+If student passes all subjects, calculate average and classify:
+Average ≥ 75 → Distinction
+Average ≥ 60 → First Class
+Average ≥ 50 → Second Class
+Average < 50 → Pass
+Input:
+Five integers (marks in 5 subjects)
+Validations:
+Each mark must be between 0 and 100
+Expected Output:
+
+If fail:
+
+Result: Fail
+
+Else:
+
+Average Marks: <avg>
+Final Result: <Classification>
