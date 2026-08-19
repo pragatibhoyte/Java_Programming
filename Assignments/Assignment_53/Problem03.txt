@@ -1,0 +1,30 @@
+3. Warehouse Stock Management
+
+A warehouse has a product in stock. Every time a customer places an order, the system must check if enough stock exists.
+
+If possible, fulfill the order and update the remaining stock. If the stock becomes very low, show an alert.
+
+Rules:
+If requested quantity > available stock → Order fails.
+Otherwise, deduct the requested quantity from the available stock.
+If remaining stock < 5 → Print a low stock alert.
+Input:
+Current stock (integer)
+Requested quantity (integer)
+Validations:
+Stock cannot be negative.
+Requested quantity must be > 0.
+Expected Output:
+
+If successful:
+
+Order Processed Successfully.
+Remaining Stock: <value>
+
+If remaining stock is less than 5, also print:
+
+Low Stock Alert!
+
+If failed:
+
+Order Failed: Insufficient Stock.
