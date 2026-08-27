@@ -1,3 +1,22 @@
+/*
+    Write a program to check whether a given number is an Armstrong Number or not.
+
+    Description:
+    A number is Armstrong if:
+    (sum of each digit raised to power of total digits) = number
+
+    Input:
+    One integer num
+
+    Output:
+    Armstrong Number or Not Armstrong Number
+
+    Example:
+    Input: 153
+    Explanation: 1³ + 5³ + 3³ = 153
+    Output: Armstrong Number
+*/
+
 import java.util.*;
 
 class NumberX

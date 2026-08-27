@@ -1,3 +1,21 @@
+/*
+    Write a program to check whether a given number is a Harshad Number or not.
+
+    Description:
+    A number is Harshad if it is divisible by the sum of its digits.
+
+    Input:
+    One integer num
+
+    Output:
+    Harshad Number or Not Harshad Number
+
+    Example:
+    Input: 18
+    Explanation: sum digits = 1 + 8 = 9, 18 % 9 = 0
+    Output: Harshad Number
+*/
+
 import java.util.*;
 
 class program04

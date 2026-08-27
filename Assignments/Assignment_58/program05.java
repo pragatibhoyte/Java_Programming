@@ -1,3 +1,21 @@
+/*
+    Write a program to check whether a given number is Palindrome or not.
+
+    Description:
+    A number is Palindrome if it remains the same when reversed.
+
+    Input:
+    One integer num
+
+    Output:
+    Palindrome Number or Not Palindrome Number
+
+    Example:
+    Input: 121
+    Reverse: 121
+    Output: Palindrome Number
+*/
+
 import java.util.*;
 
 class program05
